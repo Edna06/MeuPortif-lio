@@ -37,3 +37,5 @@ const contact = document.querySelector('.contact')
     about.classList.remove('active')
     myProjects.classList.remove('active')
   })
+
+ 

@@ -1,9 +1,10 @@
-// const home = document.querySelector('li .home')
-// const about = document.querySelector('li .about')
-// const myProjects = document.querySelector('li .projects')
-// const contact = document.querySelector('li .contact')
+const home = document.querySelector('li .home')
+const about = document.querySelector('li .about')
+const myProjects = document.querySelector('li .projects')
+const contact = document.querySelector('li .contact')
 
 
+export {home,about, myProjects,contact}
 
 // function pages() {
 //   home.addEventListener('onclick', () => {
