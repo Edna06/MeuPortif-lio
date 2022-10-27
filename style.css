@@ -80,7 +80,12 @@ letter-spacing: .4rem;
 }
 
 .navegation li.active{
-  color:#e66d27e9;
+  
+
+  color: #e66d27e9;
+  
+  text-shadow: rgb(4, 3, 3) 0px 0px 5px, rgb(4, 4, 4) 0px 0px 10px, rgb(3, 2, 2) 0px 0px 15px, #e66d27e9 0px 0px 20px, #e66d27e9 0px 0px 30px, #e66d27e9 0px 0px 40px, #e66d27e9 0px 0px 50px, #e66d27e9 0px 0px 75px;
+
   transform: scale(1.1);
   transition: all .4s;
   border: 0px;
@@ -142,12 +147,9 @@ section#home .apresentation h1{
 }
 
 section#home .apresentation h1 {
-  text-shadow: rgba(173, 43, 14, 0.692) -3px 0, rgb(28, 30, 30) 3px 0;
+  
+  text-shadow: 1px 0px 1px rgba(46, 44, 44, 0.749), 0px 1px 1px rgba(49, 45, 45, 0.749), 2px 1px 1px rgba(51, 48, 48, 0.749), 1px 2px 1px rgba(39, 37, 37, 0.749), 3px 2px 1px rgba(44, 41, 41, 0.749), 2px 3px 1px rgba(34, 31, 31, 0.749), 4px 3px 1px rgba(38, 35, 35, 0.749), 3px 4px 1px #2e2b2b, 5px 4px 1px rgba(43, 39, 39, 0.749), 4px 5px 1px rgba(31, 28, 28, 0.749), 6px 5px 1px rgba(26, 25, 25, 0.749), 5px 6px 1px rgba(27, 26, 26, 0.749), 7px 6px 1px rgba(33, 31, 31, 0.749);
 }
-
-
-
-
 
 
 /* texto dinâmico */
