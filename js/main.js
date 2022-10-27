@@ -1,41 +1,11 @@
-const home = document.querySelector('.home')
-const about = document.querySelector('.about')
-const myProjects = document.querySelector('.projects')
-const contact = document.querySelector('.contact')
+import {home, about, myProjects, contact} from './variables.js'
+import {sectionHome, sectionAbout, sectionProjects, sectionContact} from './section.js'
+
+home.addEventListener('click', () => {sectionHome()})
+about.addEventListener('click', () => {sectionAbout()})
+myProjects.addEventListener('click', () => {sectionProjects()})
+contact.addEventListener('click', () => {sectionContact()})
 
 
-
-  home.addEventListener('click', () => {
-    home.classList.add('active')
-
-    about.classList.remove('active')
-    myProjects.classList.remove('active')
-    contact.classList.remove('active')
-  })
-
-
-  about.addEventListener('click', () => {
-    about.classList.add('active')
-
-    home.classList.remove('active')
-    myProjects.classList.remove('active')
-    contact.classList.remove('active')
-  })
-
-  myProjects.addEventListener('click', () => {
-    myProjects.classList.add('active')
-
-    home.classList.remove('active')
-    about.classList.remove('active')
-    contact.classList.remove('active')
-  })
-
-  contact.addEventListener('click', () => {
-    contact.classList.add('active')
-
-    home.classList.remove('active')
-    about.classList.remove('active')
-    myProjects.classList.remove('active')
-  })
 
  
